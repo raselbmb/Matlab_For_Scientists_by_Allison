@@ -54,6 +54,7 @@ fprintf ("Rounded sin(46) to the nearest integer: %d \n", Rounded_Sin_Value);
 %% Question_3
 % "format rational" turns on rational number format
 % "format default" turns on default (or decimal) number format
+
 format rational
 Output = 5/16 + 2/7;
 
@@ -63,3 +64,48 @@ disp(Format_Command);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_4
+
+% Question_4_Part_a
+HorsePounds = 1000;
+fprintf ("The average weight of a horse is %.f lbs. \n", HorsePounds);
+
+% Question_4_Part_b
+ConversionFactor = 2.2;
+HorseKilos = HorsePounds / ConversionFactor;
+fprintf ("The average weight of a horse is %.f Kg. \n", HorseKilos);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Question_5
+
+MW_C = 12.011; % MW = Molecular Weight in g/mol. C = Carbon.
+MW_O = 15.99; % MW = Molecular Weight in g/mol. O = Oxygen.
+MW_H = 1.008; % MW = Molecular Weight in g/mol. H = Hydrogen.
+Unit = 'g/mol';
+
+Molar_Mass = (MW_C * 6 + MW_H * 10 + MW_O * 5); % Calculation
+
+fprintf ("Molar Mass of starch is: %f %s.\n", Molar_Mass, Unit);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Question_6
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Question_7
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Question_8
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
