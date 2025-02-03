@@ -25,6 +25,7 @@ fprintf ("var13 = %.f \n", var13);
 var14 = 10^3;
 fprintf ("var14 = %.f \n", var14);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Question_2
 
 % Question_2_Part_a
@@ -47,6 +48,7 @@ Degree_Angle = 46;
 Rounded_Sin_Value = floor (sin(deg2rad(Degree_Angle)));
 fprintf ("Rounded sin(46) to the nearest integer: %d \n", Rounded_Sin_Value);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Question_3
 % "format rational" turns on rational number format
 % "format default" turns on default (or decimal) number format
@@ -56,4 +58,5 @@ Output = 5/16 + 2/7;
 Format_Command = "Question 3: format rational";
 disp(Format_Command);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Question_4
