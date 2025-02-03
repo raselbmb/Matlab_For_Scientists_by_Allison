@@ -91,21 +91,29 @@ fprintf ("Molar Mass of starch is: %f %s.\n", Molar_Mass, Unit);
 
 %% Question_6
 
-
+ftemp = 108.6;
+ctemp = (ftemp - 32) * 5/9;
+fprintf ("%.2f degrees Fahrenheit equals %.2f degrees Celcius.\n", ftemp, ctemp);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_7
 
+Num_Double = 10;
+Num_String = "10";
 
-
+disp ("Question_7: see line 102 and 103.");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_8
 
+Numeric_Variable_1 = 10;
+Increment = 2;
+Numeric_Variable_2 = Numeric_Variable_1 + Increment;
+Numeric_Variable_3 = Numeric_Variable_2 + Increment;
+Numeric_Variable_4 = Numeric_Variable_3 + Increment;
 
-
-
+fprintf ("The final value after incrementing: %d \n", Numeric_Variable_4);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
