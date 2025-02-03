@@ -24,9 +24,10 @@ AreaUncovered = SurfaceArea*(1-Covered);
 
 %% OUTPUT
 
-fprintf ("1. The surface area of the box is: %.2f \n", SurfaceArea);
-fprintf ("2. The surface area of the box that is covered: %.2f \n", AreaCovered);
-fprintf ("3. The surface area of the box that is uncovered: %.2f \n", AreaUncovered);
+fprintf ("ANSWERS:\n");
+fprintf ("1. The surface area of the box is: %.2f square inches.\n", SurfaceArea);
+fprintf ("2. The surface area of the box that is covered: %.2f square inches.\n", AreaCovered);
+fprintf ("3. The surface area of the box that is uncovered: %.2f square inches.\n", AreaUncovered);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  QUESTION
