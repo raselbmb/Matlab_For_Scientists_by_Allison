@@ -19,7 +19,7 @@ Use MATLAB to answer the following questions. Store each output in a variable wi
 
 
 Question 3 (2 pt):
-	Use the help or doc functions on the command line to investigate the format function. Determine the correct option of format that will display the output of 5/16 + 2/7 as 67/112 instead of its decimal equivalent. Store the MATLAB command that will achieve this in a string with variable name of your choice, and display the string using disp. Ensure that your string includes “Question 3:” at the beginning. For example, if my format was short fixed decimal, I would display “Question 3: format short”.
+	Use the help or doc functions on the command line to investigate the "format" function. Determine the correct option of "format" that will display the output of 5/16 + 2/7 as 67/112 instead of its decimal equivalent. Store the MATLAB command that will achieve this in a string with variable name of your choice, and display the string using "disp". Ensure that your string includes “Question 3:” at the beginning. For example, if my format was short fixed decimal, I would display “Question 3: format short”.
 
 
 Question 4 (2 pt):
