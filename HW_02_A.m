@@ -10,40 +10,59 @@ clc, clearvars, close all;
 %% Question_1
 
 % Question_1_Part_a
-q1a = rand
+q1a = rand();
+disp("Question_1a: Random real number using rand, q1a = rand;");
 
 % Question_1_Part_b
-
+q1b = 20 + (50-20) * rand();
+disp("Question_1b: Random number between 20 and 50 using rand, q1b = 20 + (50-20) * rand();");
 
 % Question_1_Part_c
-
+q1c = randi([0, 10]);
+disp("Question_1c: Integer between 1 and 10 using randi, q1c = randi([0, 10]);");
 
 % Question_1_Part_d
+q1d = 20 * rand(1, 5);
+disp("Question_1d: Real numbes between 0 and 20 using rand, q1d = 20 * rand(1, 5);");
 
+% Question_1_Part_e
+q1e = randi([10, 100], 1, 5);
+disp("Question_1e: 1x5 array using randi, q1e = randi([10, 100], 1, 5);");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_2
 
 % Question_2_Part_a
-
+vec_a = [1, 2, 3, 4, 5];
+disp("Question_2a: Writing manualy, vec_a = [1, 2, 3, 4, 5];");
 
 % Question_2_Part_b
-
+vec_b = 1:5;
+disp("Question_2b: Using colon operator, vec_b = 1:5;");
 
 % Question_2_Part_c
-
+vec_c = linspace(1, 5, 5);
+disp("Question_2c: Using linspace, vec_c = linspace(1, 5, 5);");
 
 % Question_2_Part_d
-
+vec_d = vec_c';
+disp("Question_2d: Transposing, vec_d = vec_c';");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_3
-% "format rational" turns on rational number format
-% "format default" turns on default (or decimal) number format
+
+% Question_3_Part_a
 
 
+% Question_3_Part_b
+
+
+% Question_3_Part_c
+
+
+% Question_3_Part_d
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -76,15 +95,6 @@ q1a = rand
 
 %% Question_8
 
-disp("Question 1a: rand_var = rand;")
-
-disp("Question 1b: rand_var = 20 + (50-20) * rand;")
-
-disp("Question 1c: rand_int = randi([0, 10]);")
-
-disp("Question 1d: rand_array = 20 * rand(1, 5);")
-
-disp("Question 1e: rand_int_array = randi([10, 100], 1, 5);")
 
 
 
