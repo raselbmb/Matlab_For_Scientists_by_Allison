@@ -54,42 +54,58 @@ disp("Question_2d: Transposing, vec_d = vec_c';");
 %% Question_3
 
 % Question_3_Part_a
-
+vec1 = 1:0.5:3;
+disp("Question_3a: Row vector Q3a, vec1 = 1:0.5:3;");
 
 % Question_3_Part_b
-
+vec2 = 5:-1:1;
+disp("Question_3a: Row vector Q3b, vec2 = 5:-1:1;");
 
 % Question_3_Part_c
-
-
-% Question_3_Part_d
+vec3 = 10:-2:0;
+disp("Question_3a: Row vector Q3c, vec3 = 10:-2:0;");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_4
 
-% Question_4_Part_a
-
-
-% Question_4_Part_b
-
+%save ('Q4_vectors.mat', 'vec1', 'vec2', 'vec3');
+disp("Question_4: See line 72.");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_5
 
+[row_num, col_num] = size(vec2);
+fprintf("Question_5: The vector has %d row(s) and %d column(s). See line 79.", row_num, col_num)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_6
 
+% Question_6_Part_a
+
+
+% Question_6_Part_b
+
+
+% Question_6_Part_c
+
+
+% Question_6_Part_d
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_7
 
+% Question_7_Part_a
 
+
+% Question_7_Part_b
+
+
+% Question_7_Part_c
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
