@@ -10,7 +10,7 @@ clc, clearvars, close all;
 %% Question_1
 
 % Question_1_Part_a
-
+q1a = rand
 
 % Question_1_Part_b
 
@@ -76,6 +76,15 @@ clc, clearvars, close all;
 
 %% Question_8
 
+disp("Question 1a: rand_var = rand;")
+
+disp("Question 1b: rand_var = 20 + (50-20) * rand;")
+
+disp("Question 1c: rand_int = randi([0, 10]);")
+
+disp("Question 1d: rand_array = 20 * rand(1, 5);")
+
+disp("Question 1e: rand_int_array = randi([10, 100], 1, 5);")
 
 
 
