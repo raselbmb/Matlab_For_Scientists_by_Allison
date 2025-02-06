@@ -59,11 +59,11 @@ disp("Question_3a: Row vector Q3a, vec1 = 1:0.5:3;");
 
 % Question_3_Part_b
 vec2 = 5:-1:1;
-disp("Question_3a: Row vector Q3b, vec2 = 5:-1:1;");
+disp("Question_3b: Row vector Q3b, vec2 = 5:-1:1;");
 
 % Question_3_Part_c
 vec3 = 10:-2:0;
-disp("Question_3a: Row vector Q3c, vec3 = 10:-2:0;");
+disp("Question_3c: Row vector Q3c, vec3 = 10:-2:0;");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -84,34 +84,79 @@ fprintf("Question_5: The vector has %d row(s) and %d column(s). See line 79.", r
 %% Question_6
 
 % Question_6_Part_a
-
+q6a = [1, 1; 1, 1; 1, 1];
+disp("Question_6a: See line 87.");
 
 % Question_6_Part_b
-
+q6b = ones(3, 2);
+disp("Question_6b: See line 92.");
 
 % Question_6_Part_c
-
+q6c_1 = [1, 1];
+q6c_2 = [1, 1];
+q6c_3 = [1, 1];
+q6c = [q6c_1; q6c_2; q6c_3];
+disp("Question_6c: See line 95-98.");
 
 % Question_6_Part_d
-
+q6d_1 = ones(2, 2);
+q6d_2 = ones(1, 2);
+q6d = [q6d_1; q6d_2];
+disp("Question_6d: See line 102-104.");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_7
 
 % Question_7_Part_a
-
+mat_10 = randi([10, 10], 3, 3);
+%mat_10 = 10 * ones(3, 3);
+mat_rand = rand(3, 3);
+disp("Question_7a: See line 112-114.");
 
 % Question_7_Part_b
-
+mat_new = abs(mat_10 - mat_rand);
+disp("Question_7b: See line 118-119.");
 
 % Question_7_Part_c
+mat_concat = [mat_10, mat_new];
+r_mat_concat = size(mat_concat, 1);
+c_mat_concat = size(mat_concat, 2);
+fprintf ("Question_7c: mat_concat vector has %d row(s) and %d column(s).", r_mat_concat, c_mat_concat);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Question_8
 
+mat_3x5 = randi([0, 10], 3, 5);
+mat_3x2 = randi([0, 10], 3, 2);
 
+% Question_8_Part_a
+if size(mat_3x5, 1) == size(mat_3x2, 1)
+    concat_type = "Horizontal concatenation";
+    concat_dim = 2;
+else
+    concat_type = "Vertical concatenation";
+    concat_dim = 1;
+end
+
+fprintf ("Question_8a_1: %s along dimension %d", concat_type, concat_dim);
+
+% Question_8_Part_a_better
+concat_dim = 2;
+concat_type = "Horizontal concatenation";
+
+if size(mat_3x5, 2) == size(mat_3x2, 2)
+    concat_dim = 1; 
+    concat_type = "Vertical concatenation";
+end
+
+fprintf("Question_8a_2: %s along dimension %d\n", concat_type, concat_dim);
+
+% Question_8_Part_b
+
+
+% Question_8_Part_c
 
 
 
