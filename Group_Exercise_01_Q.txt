@@ -1,3 +1,7 @@
+Group_Exercise_01_Q
+
+################################################
+
 A box is 12 inches high, 8 inches long and 2 inches wide.
 Currently 30% of the box’s surface area is covered.
 Write a script that
@@ -11,3 +15,5 @@ Use the formula below:
 Rules to follow (same for HW):
 	No hard-coded numbers beyond the minimum necessary
 	Suppress everything that is not the script output
+
+################################################
