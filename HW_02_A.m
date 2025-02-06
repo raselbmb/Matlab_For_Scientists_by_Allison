@@ -77,7 +77,7 @@ disp("Question_4: See line 72.");
 %% Question_5
 
 [row_num, col_num] = size(vec2);
-fprintf("Question_5: The vector has %d row(s) and %d column(s). See line 79.", row_num, col_num)
+fprintf("Question_5: The vector has %d row(s) and %d column(s). See line 79.\n", row_num, col_num)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -122,7 +122,7 @@ disp("Question_7b: See line 118-119.");
 mat_concat = [mat_10, mat_new];
 r_mat_concat = size(mat_concat, 1);
 c_mat_concat = size(mat_concat, 2);
-fprintf ("Question_7c: mat_concat vector has %d row(s) and %d column(s).", r_mat_concat, c_mat_concat);
+fprintf ("Question_7c: mat_concat vector has %d row(s) and %d column(s).\n", r_mat_concat, c_mat_concat);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -140,7 +140,7 @@ else
     concat_dim = 1;
 end
 
-fprintf ("Question_8a_1: %s along dimension %d", concat_type, concat_dim);
+fprintf ("Question_8a_1: %s along dimension %d.\n", concat_type, concat_dim);
 
 % Question_8_Part_a_better
 concat_dim = 2;
@@ -151,13 +151,16 @@ if size(mat_3x5, 2) == size(mat_3x2, 2)
     concat_type = "Vertical concatenation";
 end
 
-fprintf("Question_8a_2: %s along dimension %d\n", concat_type, concat_dim);
+fprintf("Question_8a_2: %s along dimension %d.\n", concat_type, concat_dim);
 
 % Question_8_Part_b
-
+mat = [mat_3x5, mat_3x2];
+disp ("Question_8b: See line 157.");
 
 % Question_8_Part_c
-
-
+[r_mat, c_mat] = size(mat);
+all_ones = ones(r_mat, c_mat);
+fprintf ("Question_8c: The syntax for all ones of the size of matrix mat: " + ...
+    "all_ones = ones(r_mat, c_mat); where [r_mat, c_mat] = size(mat);.")
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
