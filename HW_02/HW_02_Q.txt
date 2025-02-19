@@ -11,6 +11,7 @@ Question 1 (2 pt):
 	e. A 1x5 array of integers in the range 10 to 100 using randi
 
 
+
 Question 2 (2 pt):
 	Define a row vector called vec containing the numbers 1,2,3,4, and 5 in increasing order, using the following methods:
 	a. Manually (writing out the numbers directly)
@@ -18,6 +19,7 @@ Question 2 (2 pt):
 	c. Using linspace
 	d. Transposing a column vector
 In each case, display the correct syntax of your command, not the vector itself (see example 1a above).
+
 
 
 Question 3 (1.5 pt):
@@ -28,12 +30,15 @@ Question 3 (1.5 pt):
 In each case, display the correct syntax of your command, not the vector itself (see example 1a above).
 
 
+
 Question 4 (0.5 pt):
 	Write the correct syntax that will save all three vectors (vec1, vec2, and vec3) in a .mat file called “Q4_vectors”. Leave this line commented out, and in your displayed answer, include the line number that the grader should refer to (e.g., “Question 4: See line XX”).
 
 
+
 Question 5 (2 pt):
 	Define vec2 as above, and determine the size of vec2 (e.g., both rows and columns) using the size function and the correct dimension. Store both the row and column number in a separate variable. Display the row # and column # of this vector using a complete sentence. In your display, also include “see line X” to point the grader to the right location.
+
 
 
 Question 6 (2 pt):
@@ -44,6 +49,8 @@ Question 6 (2 pt):
 	d. Concatenating 2 individual matrices of unequal sizes
 For all parts, use the display function to point the grader to the appropriate lines in each case.
 
+
+
 Question 7 (3 pt):
 	Define new matrices according to the following specifications:
 	a. Define two new variables: the first should be called mat_10 that is of the size 3x3 and consists of all 10’s using any MATLAB-provided functions (e.g., do not use manual matrix notation).  The second should be called mat_rand that is of the size 3x3 and consists of all random numbers between zero and 1. Use display to point the grader to the appropriate lines.
@@ -51,11 +58,11 @@ Question 7 (3 pt):
 	c. Define a new variable called mat_concat that is of the size 3x6 by concatenating any two of the matrices defined in a previous part of this question. Use display to print the size of mat_concat using a complete sentence.
 
 
+
 Question 8 (3 pt):
 	Create a 3x5 matrix and a 3x2 matrix, both of random integers between 0 and 10, and do the following:
 	a. Determine and display the type of matrix concatenation (horizonal or vertical), and the corresponding MATLAB dimension, that these two matrices can be concatenated along.
 	b. Display the syntax that shows how to define a new variable called mat that consists of the concatenation of these two random matrices.
 	c. Create a matrix of all ones that is the same size as mat. To do this, you must use the size and ones functions in the same line of code. Display this syntax in a complete sentence.
-
 
 ################################################
