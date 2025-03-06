@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Name: HW_01_A.m
 %   Author: Manik, MRK
-%   Date: 01.03.2025
+%   Date: 02.03.2025
 %   Details: This Matlab script solves all the questions from HW_01_Q.txt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc, clearvars, close all;
