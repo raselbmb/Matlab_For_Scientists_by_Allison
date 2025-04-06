@@ -43,15 +43,19 @@ A = [-10, 9, -9; 1, -3, 3; 0, 2, -2];
 B = [-1, -1, -1; 5, 3, 19; -4, 0, -2];
 
 % Question_1_Part_b_(i)
-
+elements_of_A_lt_one = A(A < 1);
+fprintf ("Question_1b(i): Elements of A that are less than 1:\n");
+fprintf ("%d\n", elements_of_A_lt_one);
 
 % Question_1_Part_b_(ii)
-
+indeces_of_B_lt_one = find(B < 1);
+fprintf ("Question_1b(ii): Elements of B that are less than 1:\n");
+fprintf ("%d\n", B(indeces_of_B_lt_one));
 
 % Question_1_Part_b_(iii)
-
-
-
+logical_matrix = (A<1) & (B<1);
+fprintf("Question_1b(iii): Elements in A where both A and B are less than 1:\n");
+disp(logical_matrix);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
