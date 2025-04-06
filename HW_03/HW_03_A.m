@@ -9,12 +9,12 @@ clc, clearvars, close all;
 
 %% Question_1
 
+% Question_1_Part_a
 mat = rand(3, 5);
 [rows, cols] = size(mat);
 disp('Original Matrix: ');
 disp(mat);
 
-% Question_1_Part_a
 % Question_1_Part_a_(i): Delete the entire 3rd row
 mat_without_row3 = mat;
 mat_without_row3 (3, :) = [];
@@ -39,6 +39,9 @@ fprintf ("Question_1a(iv): The sintax used to replace particular values with the
 
 
 % Question_1_Part_b
+A = [-10, 9, -9; 1, -3, 3; 0, 2, -2];
+B = [-1, -1, -1; 5, 3, 19; -4, 0, -2];
+
 % Question_1_Part_b_(i)
 
 
